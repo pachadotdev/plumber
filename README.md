@@ -116,6 +116,8 @@ A couple of other approaches to hosting plumber are also made available:
 
  - PM2 - https://www.rplumber.io/articles/hosting.html#pm2-1
  - Docker - https://www.rplumber.io/articles/hosting.html#docker-basic-
+ - Systemd - https://www.rplumber.io/articles/hosting.html#systemd-1
+
 ## Related Projects
 
 - [OpenCPU](https://www.opencpu.org/) - A server designed for hosting R APIs
