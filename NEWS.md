@@ -110,14 +110,14 @@
 
 * New serializers
   * `serializer_yaml()`: Return an object serialized by `yaml` (@meztez, #556)
-  * `serializer_csv()`: Return a comma separated value (@pachamaltese, #520)
+  * `serializer_csv()`: Return a comma separated value (@pachadotdev, #520)
   * `serializer_tsv()`: Return a tab separated value (#630)
   * `serializer_feather()`: Return a object serialized by `feather` (#626)
   * `serializer_text()`: Return text content (#585)
   * `serializer_cat()`: Return text content after calling `cat()` (#585)
   * `serializer_print()`: Return text content after calling `print()` (#585)
   * `serializer_format()`: Return text content after calling `format()` (#585)
-  * `serializer_svg()`: Return an image saved as an SVG (@pachamaltese, #398)
+  * `serializer_svg()`: Return an image saved as an SVG (@pachadotdev, #398)
   * `serializer_headers(header_list)`: Method which sets a list of static headers for each serialized value. Heavily inspired from @ycphs (#455). (#585)
   * `serializer_write_file()`: Method which wraps `serializer_content_type()`, but orchestrates creating, writing serialized content to, reading from, and removing a temp file. (#660)
 
